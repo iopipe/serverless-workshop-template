@@ -33,3 +33,4 @@ You can reference the [serverless framework docs](https://serverless.com/framewo
 References:
 
 * [API Gateway events in AWS Lambda](https://docs.aws.amazon.com/apigateway/latest/developerguide/integrating-api-with-aws-services-lambda.html#api-as-lambda-proxy-expose-get-method-with-query-strings-to-call-lambda-function)
+* [More on the serverless.yml options](https://serverless.com/framework/docs/providers/aws/guide/serverless.yml/)
