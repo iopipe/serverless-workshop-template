@@ -15,6 +15,14 @@ Misplaced it? [you can look at step 00 to re-obtain it.](../00-setup-and-install
 * Fill out the fields
 * Click the orange 'save' button in the upper right corner of the screen
 
+## Step 4 -- Invoke via HTTP
+
+Use the URL given when you save the API Gateway trigger
+
+`curl API_GATEWAY_URL?name=YOUR_NAME`
+
+## Step 5 -- digging into the IOpipe Dashboard
+
 References:
 
 * https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-set-up-simple-proxy.html#api-gateway-simple-proxy-for-lambda-input-format
