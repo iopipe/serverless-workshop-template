@@ -2,16 +2,21 @@
 
 const IOpipelib = require('@iopipe/iopipe')
 
-iopipe = IOpipelib({
-  token: ACCESS_TOKEN
+let iopipe = IOpipelib({
+  token: 'ACCESS_TOKEN'
 })
 
 module.exports.hello = iopipe((event, context, callback) => {
-  // query string params == event.queryParams.paramName
+  let message = 'Hello, '
+  if (event.queryStringParameters && event.queryStringParameters.name) {
+    message += event.queryStringParameters.name + '!'
+  } else {
+    message += 'World!'
+  }
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Hello, ' + event.queryParams.name + '!',
+      message,
       input: event
     })
   }
