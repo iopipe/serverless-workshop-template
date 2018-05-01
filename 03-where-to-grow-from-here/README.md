@@ -5,8 +5,8 @@
 * Microsoft Azure Functions
 * Webtask.io
 * AWS Lambda
-* OpenStack
-* IBM Bluemix
+* IBM OpenWhisk
+* Many more, growing by the day!
 
 ## Serverless Framework
 
