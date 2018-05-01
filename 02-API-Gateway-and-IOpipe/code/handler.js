@@ -7,10 +7,11 @@ iopipe = IOpipelib({
 })
 
 module.exports.hello = iopipe((event, context, callback) => {
+  // query string params == event.queryParams.paramName
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Serverless v1.0! Your function executed successfully!',
+      message: 'Hello, ' + event.queryParams.name + '!',
       input: event
     })
   }
