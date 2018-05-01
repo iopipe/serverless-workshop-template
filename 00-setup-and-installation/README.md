@@ -8,6 +8,8 @@ Go to [nodejs.org](https://nodejs.org) to install for your platform.
 
 Follow installation instructions [here](https://serverless.com/framework/docs/getting-started/), and instructions for setting up AWS Lambda (here)[https://serverless.com/framework/docs/providers/aws/guide/quick-start/]
 
+**Note:** If you're using a work AWS account, perhaps consider using a separate account, even spinning up a temporary one, for following along with this workshop
+
 ## Sign up for IOpipe and get your access token
 
 Sign up [here](https://dashboard.iopipe.com), then click 'Install' on the left menu. Copy your access token into an easily accessible place, or just keep that tab open.
