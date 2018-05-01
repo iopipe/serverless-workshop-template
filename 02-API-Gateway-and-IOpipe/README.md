@@ -23,6 +23,11 @@ Use the URL given when you save the API Gateway trigger
 
 ## Step 5 -- digging into the IOpipe Dashboard
 
+## Extra exercises
+
+* Adding [custom metrics](https://hub.iopipe.com/integrating-with-iopipe/using-custom-metrics)
+* Adding [tracing](https://hub.iopipe.com/integrating-with-iopipe/tracing-your-aws-lambda-functions)
+
 References:
 
 * https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-set-up-simple-proxy.html#api-gateway-simple-proxy-for-lambda-input-format
